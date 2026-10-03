@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://herzjesugym.sharepoint.com; font-src 'self' data:; connect-src 'self' https://login.microsoftonline.com https://graph.microsoft.com https://herzjesugym.sharepoint.com https://herzjesugym-my.sharepoint.com; frame-src 'self' https://login.microsoftonline.com; worker-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self' https://login.microsoftonline.com; object-src 'none'; upgrade-insecure-requests" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Zeiterfassung · Herz-Jesu-Gymnasium</title>
+    <!-- Interne App: nicht in Suchmaschinen (robots.txt sperrt / bewusst NICHT, sonst sehen Crawler dieses noindex nicht) -->
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="description" content="Arbeitszeit erfassen: Dienst beginnen und beenden, Zeiten nachtragen, Stunden ansehen. Für Mitarbeiterinnen und Mitarbeiter des Herz-Jesu-Gymnasiums. Anmelden mit dem Schul-Konto." />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#c8102e" />
+    <!-- Installierte App; KEIN black-translucent: die iOS-Statusleiste bleibt ein eigener Streifen -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Zeiterfassung" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <!-- Vorschau beim Teilen des Links (Teams, WhatsApp, E-Mail) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Herz-Jesu-Gymnasium" />
+    <meta property="og:title" content="Zeiterfassung" />
+    <meta property="og:description" content="Arbeitszeit erfassen: Dienst beginnen und beenden, Stunden ansehen. Anmelden mit dem Schul-Konto." />
+    <meta property="og:locale" content="de_AT" />
+    <meta property="og:url" content="https://zeiterfassung.herzjesugym.com/" />
+    <meta property="og:image" content="https://zeiterfassung.herzjesugym.com/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Weiße Uhr auf rotem Grund, darunter „Zeiterfassung · Herz-Jesu-Gymnasium“" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Ladehülle, bis die App startet (React ersetzt den Inhalt von #root). Farben wie in src/index.css. -->
+    <style>html{color:#1d1b1b;background:#f7f3f3}.boot{--boot-muted:#6b6464;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}@media (prefers-color-scheme:dark){html{color:#f1ecec;background:#161414}.boot{--boot-muted:#a79e9e}}.boot-head{color:#fff;padding-top:env(safe-area-inset-top);background:#c8102e}.boot-row,.boot-main{box-sizing:border-box;max-width:42rem;padding-left:max(1rem, env(safe-area-inset-left));padding-right:max(1rem, env(safe-area-inset-right));margin:0 auto}.boot-row{align-items:center;gap:.5rem;min-height:60px;font-size:1.125rem;font-weight:700;display:flex}.boot-main{color:var(--boot-muted);text-align:center;justify-content:center;align-items:center;gap:.5rem;padding-top:3.5rem;display:flex}.boot-spin{box-sizing:border-box;border:2.5px solid;border-right-color:#0000;border-radius:50%;width:1.25rem;height:1.25rem;animation:.8s linear infinite boot-spin}@keyframes boot-spin{to{rotate:1turn}}@media (prefers-reduced-motion:reduce){.boot-spin{animation-duration:2.4s}}</style>
+    <script type="module" crossorigin src="/assets/index-poA9cLIL.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-CbXtAM7H.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-ojnyWIuN.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-msal-BF7sXT8o.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BpQCPico.css">
+  <link rel="manifest" href="/manifest.webmanifest"></head>
+  <body>
+    <div id="root">
+      <div class="boot">
+        <div class="boot-head">
+          <div class="boot-row">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></svg>
+            Zeiterfassung
+          </div>
+        </div>
+        <div class="boot-main" role="status"><span class="boot-spin" aria-hidden="true"></span>Wird geladen …</div>
+        <noscript><p class="boot-main">Bitte JavaScript einschalten – sonst funktioniert die Zeiterfassung nicht.</p></noscript>
+      </div>
+    </div>
+  </body>
+</html>
