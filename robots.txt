@@ -1,0 +1,4 @@
+# Interne App. Die Seiten selbst tragen <meta name="robots" content="noindex">.
+# "/" darf hier NICHT gesperrt werden, sonst lesen Suchmaschinen dieses noindex nie.
+User-agent: *
+Disallow:
